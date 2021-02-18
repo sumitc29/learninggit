@@ -1,0 +1,75 @@
+ 1987  cd Desktop/
+ 1988  ll
+ 1989  mkdir git_repo
+ 1990  cd git_repo/
+ 1991  git init
+ 1992  git user
+ 1993  git --help
+ 1994  git init
+ 1995  git config
+ 1996  git config --list
+ 1997  ll
+ 1998  cd Desktop/
+ 1999  ll
+ 2000  mkdir gitlearning
+ 2001  cd git
+ 2002  cd gitlearning/
+ 2003  git init
+ 2004  ll
+ 2005  cd ..
+ 2006  cd temp_git
+ 2007  mkdir temp_git && cd temp_git
+ 2008  git init learning_repo
+ 2009  ll
+ 2010  cd learning_repo/
+ 2011  ll
+ 2012  cat >> readme.md
+ 2013  cat readme.md 
+ 2014  git add readme.md 
+ 2015  git commit -m "this is very first commit creating repo~"
+ 2016  git branch -M main
+ 2017  git branch
+ 2018  git remote add origin https://github.com/sumitc29/learninggit.git
+ 2019  git push -u origin main
+ 2020  git -checkout -b issue1
+ 2021  git checkout -b issue1
+ 2022  git branch
+ 2023  vi branch.txt
+ 2024  git commit -m "adding file in new branch:
+ 2025  git commit -m "adding file in new branch"
+ 2026  git add branch.txt 
+ 2027  git commit -m "adding file in new branch"
+ 2028  git branch
+ 2029  git push -u origin issue1 
+ 2030  git checkout master
+ 2031  git branch
+ 2032  git checkout main
+ 2033  git checkout issue1 
+ 2034  git branch
+ 2035  git pulll
+ 2036  git pull
+ 2037  git branch
+ 2038  ll
+ 2039  cat branch.txt 
+ 2040  git checkout main
+ 2041  ll
+ 2042  git checkout issue1 
+ 2043  git branch
+ 2044  cat
+ 2045  ll
+ 2046  vi branch.txt 
+ 2047  history | grep add
+ 2048  git add -A
+ 2049  git commit -m "added one more line in text file"
+ 2050  git checkout main
+ 2051  git branch
+ 2052  git merge issue1 
+ 2053  git log 
+ 2054  git branch
+ 2055  git merge issue1 
+ 2056  git push origin main
+ 2057  history 20
+ 2058  history 50
+ 2059  history 70
+ 2060  history 75 >> git commanda.txt
+ 2061  history 75 >> a.txt
